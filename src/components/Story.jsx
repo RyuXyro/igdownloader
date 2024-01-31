@@ -9,7 +9,7 @@ const Story = (props) => {
     const [responseObj, setResponseObj] = useState({});
     const [isLoading, setIsLoading] = useState(false);
     const [hasLoaded, setHasLoaded] = useState(false);
-    // const [storyArray, setStoryArray] = useState([]);
+    const [storyArray, setStoryArray] = useState([]);
     
     function submitHandler(e) {
         e.preventDefault();
